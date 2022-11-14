@@ -10,7 +10,6 @@ public class Lock {
 
     public Lock(int[] array) {
         original = new int[array.length];
-        // Pre-allocated array.
         auxiliary = new int[array.length];
         System.arraycopy(array, 0, original, 0, array.length);
     }
